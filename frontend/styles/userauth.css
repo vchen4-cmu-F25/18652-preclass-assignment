@@ -46,8 +46,8 @@ body {
     padding: 10px 0;
     background-color: lightskyblue;
     color: black;
-    border: none;
-    border-radius: 3px;
+    border: 2px solid black;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
