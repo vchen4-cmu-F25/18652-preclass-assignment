@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chatroom-body {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+}
+
+.chatroom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+.chatroom-header h2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
+
+#logout-button {
+    background-color: orange;
+    border: black 2px solid;
+    padding: 6px 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#logout-button:hover {
+    background-color: rosybrown;
+    opacity: 0.9;
+}
+
+
+.chatroom-messages {
+    display: inline;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #e6e5e5;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chat-username {
+    font-weight: bold;
+    font-size: larger;
+    color: #2b2b2b;
+}
+
+.chat-time {
+    font-size: 15px;
+    color: #626060;
+}
+
+.chat-text {
+    margin-top: 4px;
+    color: #383838;
+}
+
+
+#input-window {
+    width: 100%;
+    margin: auto;
+    resize: none;
+    padding: 8px;
+    height: 30%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.chatroom-footer {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#post-button {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border: black 2px solid;
+    padding: 10px;
+    width: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#post-button:hover {
+    background-color: rosybrown;
+    opacity: 0.9;
+}

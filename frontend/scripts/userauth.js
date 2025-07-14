@@ -30,6 +30,8 @@ loginButton.addEventListener('click', async () => {
         if (res.ok) {
             showMessage(`Login successful! Welcome, ${data.username}`);
             localStorage.setItem('token', data.token);
+            localStorage.setItem('username', data.username);
+            window.location.href = '../frontend/chatroom.html';
         } else {
             showMessage(`Login failed: ${data.message}`, false);
         }
